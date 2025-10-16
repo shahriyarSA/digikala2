@@ -1,0 +1,125 @@
+.poster {
+  width: 100%;
+  height: 625px;
+  box-sizing: border-box;
+  .poster-first-row {
+    width: 80%;
+    height: 240px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    box-sizing: border-box;
+    .poster-first-row-item {
+      width: 320px;
+      height: 240px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+    }
+  }
+  .poster-second-row {
+    width: 80%;
+    height: 110px;
+    background-color: #ebeeed;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .poster-second-row-right {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 20px;
+      padding-right: 15px;
+      span {
+        width: 110px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #009a49;
+        border-radius: 15px;
+        font-family: var(--font-family);
+        font-size: 14px;
+        color: whitesmoke;
+      }
+    }
+    .poster-second-row-left {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-left: 15px;
+      .poster-second-row-left-items {
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 10px;
+        img {
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        p {
+          width: 35px;
+          height: 25px;
+          display: block;
+          background-color: #d22f2f;
+          font-family: var(--number);
+          font-size: 14px;
+          color: whitesmoke;
+          border-radius: 12px;
+          text-align: center;
+        }
+      }
+      .poster-second-row-left-more {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        span {
+          font-family: var(--font-family);
+          font-size: 12px;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .poster-third-row {
+    width: 80%;
+    height: 240px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    box-sizing: border-box;
+    .poster-third-row-item {
+      width: 320px;
+      height: 240px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+    }
+  }
+}

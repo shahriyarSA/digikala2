@@ -1,0 +1,35 @@
+.read {
+  width: 100%;
+  height: 50px;
+  margin-top: 19px;
+  .read-center {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    .read-center-1 {
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 16px 20px;
+      color: #0c0c0c;
+      position: absolute;
+      font-family: var(--font-family);
+    }
+    span {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: #19bfd3;
+      margin-right: 1000px;
+      line-height: 58px;
+    }
+    svg {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      top: 16px;
+      margin-right: 2.6px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+}
+@font-face {
+  font-family: Vaziri;
+  src: url(../fonts/Vazir.eot), url(../fonts/Vazir.ttf),
+    url(../fonts/Vazir.woff), url(../fonts/Vazir.woff2);
+}
+@font-face {
+  font-family: VaziriNumber;
+  src: url(../fonts/Vazir-Bold-FD-WOL.eot), url(../fonts/Vazir-Bold-FD-WOL.ttf),
+    url(../fonts/Vazir-Bold-FD-WOL.woff), url(../fonts/Vazir-Bold-FD-WOL.woff2);
+}
+:root {
+  --font-family: Vaziri;
+  --number: VaziriNumber;
+}
+&.swiper-rtl .swiper-button-prev,
+&.swiper-rtl ~ .swiper-button-prev {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  transition: 300ms !important;
+}
+.swiper-pagination-bullet-active {
+  width: 16px !important;
+  height: 6px !important;
+  background-color: whitesmoke !important;
+  border-radius: 5px !important;
+}

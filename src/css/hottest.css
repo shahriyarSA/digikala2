@@ -1,0 +1,97 @@
+.most-selling {
+  width: 100%;
+  height: 400px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  .most-selling-center {
+    width: 80%;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    .swiper-slide-center-header {
+      width: 100%;
+      height: 100px;
+      position: relative;
+      .swiper-slider-center-header-container {
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        p {
+          font-family: var(--font-family);
+          font-size: 20px;
+        }
+      }
+      a {
+        position: absolute;
+        left: 0;
+        top: 30%;
+        font-family: var(--font-family);
+        font-size: 14px;
+        color: aqua;
+        text-decoration: none;
+      }
+    }
+    .swiper {
+      width: 100%;
+      height: 300px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper-slide-item {
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+        box-sizing: border-box;
+        .swiper-slide-item-product {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 10px;
+          box-sizing: border-box;
+          column-gap: 10px;
+          img {
+            width: 86px;
+            height: 86px;
+          }
+          span {
+            font-size: 30px;
+            font-family: var(--number);
+            color: aqua;
+          }
+          p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            box-orient: vertical;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            overflow: hidden;
+            font-family: var(--font-family);
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.border-top-bottom {
+  border-top: 1px solid rgb(235, 232, 232);
+  border-bottom: 1px solid rgb(235, 232, 232);
+}
